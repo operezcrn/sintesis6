@@ -1,0 +1,162 @@
+@media screen and (min-width: 481px) and (max-width: 767px){
+
+  body {background-color: rgb(130, 135, 133);}
+
+  #capcelera {
+   height: 108px;
+   width: 100%;
+   background-color: green;
+   margin-bottom: 00px;
+  }
+    #capcelera ul {
+     margin: 0;
+     padding: 0 0 0 ;
+    }
+    .llista ul {
+      width: 50%;
+    }
+    .selected {
+      display: none;
+    }
+
+    #burguer {
+      display: none;
+    }
+
+    .checkbox {
+      display: none;
+    }
+
+    #capcelera li {
+     float: left;
+     border-right: 1px solid rgb(53, 164, 60);
+     padding: 66px 9px 9px 9px;
+     list-style: none;
+    }
+    #capcelera li.last {
+     border-right: none;
+    }
+    #capcelera a {
+     color:  #FFF;
+     font: 12px arial, sans-serif;
+     font-weight: normal;
+     text-decoration: none;
+     text-transform: uppercase;
+    }
+
+    #capcelera a:hover{
+      text-decoration: underline;
+    }
+
+    #capcelera .selected a {
+     font-weight: bold;
+    }
+
+    #logo {
+      display: none;
+      margin-left: 200px;
+      margin-top: 10px;
+      width: 100px;
+      height: 100px;
+    }
+
+
+  #foto {
+    background-color: ;
+    height: auto;
+    width: 100%;
+  }
+  #foto img{
+    height: auto;
+    width: 100%;
+  }
+
+  #introduccio{
+    background-color: white;
+    border: solid black 5px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #introduccio h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+
+  #publi {
+    background-color: rgb(103, 254, 104);
+    width: 100%;
+    height: auto;
+    border: 1px black solid;
+    text-align: center;
+  }
+
+  #consells {
+    border: black 5px ;
+    background-color: ;
+  }
+
+  .bandera {
+    height: auto;
+    width: 50px;
+    margin-left: 20%;
+  }
+
+  .banderafloat {
+    float: left;
+  }
+
+  .contenidor {
+    background-color: white;
+    border-top:  solid black 5px;
+    margin: 5px;
+    margin-left: -5px;
+    padding: 5px;
+    width: 100%;
+    float: left;
+  }
+
+  .contenidor h1 {
+    font:  verdana;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .fotoweb {
+    background-color: ;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+  }
+
+  .fotoweb img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ordena {
+    display: none;
+  }
+
+  #genbangkok{
+    height: 600px;
+  }
+  #genpattaya{
+    height: 500px;
+  }
+  #genphuket{
+    height: 580px;
+  }
+  #genphiphi{
+    height: 500px;
+  }
+  #genkrabi{
+    height: 500px;
+  }
+  #genchiangmai{
+    height: 670px;
+  }
+  #genchiangrai{
+    height: 490px;
+  }
+    }

@@ -1,0 +1,167 @@
+@media screen and (min-width: 768px) {
+
+body {background-color: rgb(130, 135, 133);}
+
+#capcelera {
+ height: 108px;
+ width: 100%;
+ background-color: green;
+ margin-bottom: -110px;
+
+}
+  #capcelera ul {
+   margin: 0;
+   padding: 0 0 0 ;
+  }
+
+  #capcelera li {
+   float: left;
+   border-right: 1px solid rgb(53, 164, 60);
+   padding: 66px 9px 9px 9px;
+   list-style: none;
+  }
+  #capcelera li.last {
+   border-right: none;
+  }
+  #capcelera a {
+   color: #FFF;
+   font: 12px arial, sans-serif;
+   font-weight: normal;
+   text-decoration: none;
+   text-transform: uppercase;
+  }
+
+  #capcelera a:hover{
+    text-decoration: underline;
+  }
+
+  #capcelera .selected a {
+   font-weight: bold;
+  }
+  #burguer {
+    display: none;
+  }
+
+  .checkbox {
+    display: none;
+  }
+
+  #logo {
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+
+  }
+
+#foto {
+  background-color: ;
+  height: auto;
+  width: 100%;
+}
+#foto img{
+  height: auto;
+  width: 100%;
+}
+#introduccio{
+  background-color: white;
+  border: solid black 5px;
+  margin: 5px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+#introduccio h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+#publi {
+  background-color: rgb(103, 254, 104);
+  width: 100%;
+  height: auto;
+  border: 1px black solid;
+  text-align: center;
+}
+
+#consells {
+  border: black 5px ;
+  background-color: ;
+}
+
+.bandera {
+  height: auto;
+  width: 50px;
+  margin-left: 20%;
+}
+
+.banderafloat {
+  float: left;
+}
+
+.general{
+  width: 97%;
+  height: 700px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(187, 187, 199);
+}
+.contenidor {
+  background-color: white;
+  border:  solid black 5px;
+  margin: 2%;
+  margin-top: 5px;
+  padding: 5px;
+  width: 45%;
+  float: left;
+}
+
+.contenidor h1 {
+  font:  verdana red;
+  font-family: 'Playfair Display', serif;
+}
+
+.fotoweb {
+  background-color: ;
+  float: left;
+  width: 45%;
+  height: 80px;
+  padding-top: 5px;
+}
+
+.fotoweb img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+#genbangkok{
+  height: 500px;;
+}
+#genpattaya{
+  height: 500px;
+}
+#genphuket{
+  height: 600px;
+}
+#genphiphi{
+  height: 750px;
+}
+#genkrabi{
+  height: 520px;
+}
+#genchiangmai{
+  height: 520px;
+}
+#genchiangrai{
+  height: 800px;
+}
+#genallot{
+  height: 500px;
+}
+#gendelin{
+  height: 500px;
+}
+
+}
